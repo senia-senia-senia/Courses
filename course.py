@@ -102,6 +102,40 @@ def main():
             print(ishod,file = output)
     elif a[3] == 'helpfunc()':
         print(helpfunc())
+    elif a[3] == 'helpfunc(trpAdd)':
+        b = helpFunction('trpAdd')
+        print(b,file = output)
+    elif a[3] == 'helpfunc(trpSort)':
+        print('11')
+        b = helpFunction('trpSort')
+        print(b,file = output)
+    elif a[3] == 'helpfunc(trpDelPref)':
+        b = helpFunction('trpDelPref')
+        print(b,file = output)
+    elif a[3] == 'helpfunc(trpGet)':
+        b = helpFunction('trpGet')
+        print(b,file = output)
+    elif a[3] == 'helpfunc(trp_Get)':
+        b = helpFunction('trp_Get')
+        print(b,file = output)
+    elif a[3] == 'helpfunc(trpGetName)':
+        b = helpFunction('trpGetName')
+        print(b,file = output)
+    elif a[3] == 'helpfunc(del_trp)':
+        b = helpFunction('del_trp')
+        print(b,file = output)
+    elif a[3] == 'helpfunc(trpGoNext)':
+        b = helpFunction('trpGoNext')
+        print(b,file = output)
+    elif a[3] == 'helpfunc(trpGoEnd)':
+        b = helpFunction('trpGoEnd')
+        print(b,file = output)
+    elif a[3] == 'helpfunc(trpGoName)':
+        b = helpFunction('trpGoName')
+        print(b,file = output)
+    elif a[3] == 'helpfunc(trp_GetFirst)':
+        b = helpFunction('trp_GetFirst')
+        print(b,file = output)
     else:
         print('11')
         tstr = []
